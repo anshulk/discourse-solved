@@ -79,7 +79,8 @@ function initializeWithApi(api) {
         icon: 'check-square-o',
         className: 'unaccepted',
         title: 'solved.accept_answer',
-        position
+          label:'solved.accept_answer_tm',
+          position
       };
     } else if (canUnaccept || accepted) {
       const title = canUnaccept ? 'solved.unaccept_answer' : 'solved.accepted_answer';
